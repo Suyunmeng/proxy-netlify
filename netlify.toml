@@ -1,4 +1,5 @@
 [[redirects]]
+  from = "/cloud/*"
   to = "https://:splat"
   status = 200
   force = true
