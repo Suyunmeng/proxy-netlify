@@ -10,3 +10,27 @@
   to = "https://homepage.huacloud.eu.org/:splat"
   status = 200
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/cdnjs/*"
+  to = "https://cdnjs.cloudflare.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/goog/ajax/*"
+  to = "https://ajax.googleapis.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/goo/fonts/*"
+  to = "https://fonts.googleapis.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/gravatar/*"
+  to = "https://secure.gravatar.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
