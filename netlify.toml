@@ -1,4 +1,6 @@
 [[redirects]]
+  from = "/*"
+  to = "https://homepage.huacloud.eu.org/:splat"
   from = "/cloud/*"
   to = "https://:splat"
   status = 200
@@ -7,5 +9,3 @@
   from = "/*"
   to = "https://homepage.huacloud.eu.org/:splat"
   status = 200
-  force = true  
-  headers = {X-From = "Netlify"}
