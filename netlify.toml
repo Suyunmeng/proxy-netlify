@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "https://tunnel-vless.cloudlinksu.workers.dev/:splat"
+  from = "/cloud/*"
+  to = "https://:splat"
   status = 200
   force = true
