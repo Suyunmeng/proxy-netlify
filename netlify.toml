@@ -3,3 +3,9 @@
   to = "https://:splat"
   status = 200
   force = true
+  headers = {X-From = "Netlify"}
+  from = "/*"
+  to = "https://homepage.huacloud.eu.org/:splat"
+  status = 200
+  force = true  
+  headers = {X-From = "Netlify"}
