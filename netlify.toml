@@ -18,8 +18,8 @@
   headers = {X-From = "Netlify"}
   
 [[redirects]]
-  from = "/cdnjs/*"
-  to = "https://cdnjs.cloudflare.com/:splat"
+  from = "/cdnjs/ajax/libs/*"
+  to = "https://cdnjs.cloudflare.com/ajax/libs/:splat"
   status = 200
   headers = {X-From = "Netlify"}
 
