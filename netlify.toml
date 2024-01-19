@@ -7,10 +7,16 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://homepage.huacloud.eu.org/:splat"
+  to = "https://home-github.cloudlinksu.cloudns.org/:splat"
   status = 200
   headers = {X-From = "Netlify"}
-
+  
+[[redirects]]
+  from = "/jsd/*"
+  to = "https://cdn.jsdelivr.net/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+  
 [[redirects]]
   from = "/cdnjs/*"
   to = "https://cdnjs.cloudflare.com/:splat"
@@ -18,8 +24,8 @@
   headers = {X-From = "Netlify"}
 
 [[redirects]]
-  from = "/goog/ajax/*"
-  to = "https://ajax.googleapis.com/:splat"
+  from = "/goo/ajax/libs/*"
+  to = "https://ajax.googleapis.com/ajax/libs/:splat"
   status = 200
   headers = {X-From = "Netlify"}
 
@@ -30,7 +36,31 @@
   headers = {X-From = "Netlify"}
 
 [[redirects]]
+  from = "/goo/themes/*"
+  to = "https://themes.googleusercontent.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/gs/www/*"
+  to = "https://www.gstatic.com/ajax/libs/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/gs/fonts/*"
+  to = "https://fonts.gstatic.com/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+  
+[[redirects]]
   from = "/gravatar/*"
-  to = "https://secure.gravatar.com/:splat"
+  to = "https://secure.gravatar.com/avatar/:splat"
+  status = 200
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/gith/raw/*"
+  to = "https://raw.githubusercontent.com/:splat"
   status = 200
   headers = {X-From = "Netlify"}
