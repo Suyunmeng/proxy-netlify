@@ -58,10 +58,3 @@
   to = "https://raw.githubusercontent.com/:splat"
   status = 200
   headers = {X-From = "Netlify"}
-
-[[redirects]]
-  from = "/*"
-  to = "https://home-github.cloudlinksu.cloudns.org/:splat"
-  status = 200
-  headers = {X-From = "Netlify"}
-  
